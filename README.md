@@ -1,41 +1,22 @@
-** for fedora, Debian ⁄ Ubuntu so far
 
-** for surface only
-
-to run it.
-
-in the folder they are in - right click and select open terminal here
-
-type {./"name of the script"} then press enter example: ./1.sh
+**All scripts have been updated to include support for:**
+- HDD maintenance - fedora - include menu 
+- SSD maintenance - fedora - include menu 
+- Surface project for Fedora
+- Surface project for all supported distros
+- Cloudflare
 
 
+**If a script fails to run, do the following:**
 
-if it did not work
+1. Open a terminal in the folder containing the file.
+2. On **Fedora**, run:
+   sudo chmod +x {filename}.sh
+   - You can copy and paste the command (**Ctrl+Shift+C** / **Ctrl+Shift+V** in the terminal), **or**
+   - Rename the file to something simpler beforehand to make the process easier.
 
-in the folder right click and select open terminal here
+3. If you are using a **different distro**, you will need to look up the equivalent steps for your distribution.
 
-then type
+**To inspect a script's contents before running it:**
 
-
-sudo chmod +x 1.sh
-
-sudo chmod +x 2.sh
-
-sudo chmod +x 3.sh
-
-sudo chmod +x 4.sh
-
-
-scripts     Function
-
-1.sh        fedora Debian ⁄ Ubuntu update and upgrade, install the linux-surface kernel and its dependencies - Reboot ok [password is {surface}]
-
-2.sh        enable surface kernel - include systemd command just incase
-
-3.sh        calibration for surface
-
-4.sh        extra calibrations - if did not work use 3.sh
-
-p1.sh       Debian ⁄ Ubuntu only old version only if error 404 show up only
-
-you can check the content by right click and open with Kwrite
+Right-click the file and open it with **KWrite** (or any text editor).
